@@ -74,7 +74,6 @@
             zhuangtai(){
                 if(sessionStorage.getItem("user"))this.login_zhuangtai=true;
                 this.user = sessionStorage.getItem("user");
-                console.log(this.user);
             },
             tuichu(){
                 this.login_zhuangtai = false;

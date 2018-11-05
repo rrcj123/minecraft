@@ -23,7 +23,7 @@
                             <div class="center">
                                 <div class="gonggaolan_biaoti">
                                     <ul id="gonggaolan_biaoti">
-                                        <li><a href="javascript:void(0)" :class="{active:new_tab=='zx'}" @click="xw_huadong('zx')">最新</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='rd'}" @click="xw_huadong('rd')">热点</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='xw'}" @click="xw_huadong('xw')">新闻</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='gg'}" @click="xw_huadong('gg')">公告</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='hd'}" @click="xw_huadong('hd')">活动</a></li><a href="/news" class="gengduo" ></a>
+                                        <li><a href="javascript:void(0)" :class="{active:new_tab=='zx'}" @click="xw_huadong('zx')">最新</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='rd'}" @click="xw_huadong('rd')">热点</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='xw'}" @click="xw_huadong('xw')">新闻</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='gg'}" @click="xw_huadong('gg')">公告</a></li><li><a href="javascript:void(0)" :class="{active:new_tab=='hd'}" @click="xw_huadong('hd')">活动</a></li><router-link to="/news" class="gengduo" ></router-link>
                                     </ul>
                                 </div>
                                 <div class="gonggaolan_neirong">
@@ -83,7 +83,7 @@
                                 <div class="wanjia_xia" :class="{active:classify_tupian=='tx'}"><a href="javascript:;" @mouseenter="wanjia('tx')">头像下载</a></div>
                                 <div class="wanjia_xia" :class="{active:classify_tupian=='bqb'}"><a href="javascript:;" @mouseenter="wanjia('bqb')">表情包</a></div>
                                 <div class="wanjia_last"></div>
-                                <a href="/wanjia" class="gengduo"><span>MORE</span><i></i></a>
+                                <router-link to="/wanjia" class="gengduo"><span>MORE</span><i></i></router-link>
                             </div>
                             <div class="right">
                                 <ul :class="{tupian:classify_tupian=='jctp'}">
@@ -123,7 +123,7 @@
                                 <li><a href="javascript:;" @mouseenter="shipin('jz')" :class="{active:classify_shipin=='jz'}">建筑</a></li>
                                 <li><a href="javascript:;" @mouseenter="shipin('hy')" :class="{active:classify_shipin=='hy'}">海洋</a></li>
                             </ul>
-                            <a href="/shipin" class="gengduo"><span>MORE</span><i></i></a>
+                            <router-link to="/shipin" class="gengduo"><span>MORE</span><i></i></router-link>
                             <ul class="neirong">
                                 <li v-for="item in list_shipin" @click="zhanshi_video(item)"><img :src="item.t_url"/><div></div><img class="bofang" src="http://img.rrcj123.com/minecraft/img/xinshou/bofang.png"><span>{{item.title}}</span><span>作者：{{item.author}}</span></li>
                             </ul>

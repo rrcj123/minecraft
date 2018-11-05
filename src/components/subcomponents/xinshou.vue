@@ -84,7 +84,6 @@
                 this.$http.get(url).then(result=>{
                     if(result.body.code==200){
                         this.lunbo_list=result.body.msg;
-                        console.log(this.lunbo_list)
                     }
                 });
             },
