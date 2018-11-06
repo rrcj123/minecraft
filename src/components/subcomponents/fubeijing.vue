@@ -59,12 +59,12 @@
     }
     .app_datu .datu .datu_bg{
         margin: 0 -360px;
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/datu_bg.jpg") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/datu_bg.jpg") no-repeat;
         height: 432px;
     }
     .app_datu .datu .xia_bg{
         margin: 0 -360px;
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/xia_bg.jpg") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/xia_bg.jpg") no-repeat;
         height: 1313px;
     }
 </style>

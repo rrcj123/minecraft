@@ -88,7 +88,7 @@
         height: 67px;
         width: 1200px;
         margin: 0 auto;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/xia1.png") no-repeat 50% 50%; }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/xia1.png") no-repeat 50% 50%; }
 
     .xia2 {
         margin-top: 45px;
@@ -108,12 +108,12 @@
         transition: all 0.7s; }
     .xia2 a:hover {
         color: white;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
     .xia2 .a1 {
         border-left: 1px solid #cfe6ca; }
     .xia2 .active {
         color: white;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
     .xia2 .a5 {
         border-right: 1px solid #cfe6ca; }
 
@@ -132,9 +132,9 @@
         font-size: 14px;
         background: #61C355; }
     .xia3 li:hover .zuo .left {
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/left_jihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/left_jihuo.png"); }
     .xia3 li:hover .zuo .right {
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/right_jihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/right_jihuo.png"); }
     .xia3 li:hover .biaoti {
         color: #28BD09; }
     .xia3 li a {
@@ -160,11 +160,11 @@
     .xia3 li a .zuo .left {
         left: -6px;
         top: -4px;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/left_weijihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/left_weijihuo.png"); }
     .xia3 li a .zuo .right {
         right: -6px;
         top: -4px;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/right_weijihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/right_weijihuo.png"); }
     .xia3 li a .neirong {
         display: inline-block;
         width: 830px;

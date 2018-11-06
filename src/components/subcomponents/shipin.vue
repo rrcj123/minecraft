@@ -20,14 +20,14 @@
                                     <i v-html="item.zan" @click.stop="zan(item.id,i)"></i>
                                     <i>&nbsp;&nbsp;</i>
                                     <div></div>
-                                    <img class="bofang" src="http://img.rrcj123.com/minecraft/img/xinshou/bofang.png">
+                                    <img class="bofang" src="https://img.rrcj123.com/minecraft/img/xinshou/bofang.png">
                                     <span>{{item.title}}</span>
                                     <span>作者：{{item.author}}</span>
                                 </li>
                             </ul>
                             <div class="zhanshi" v-show="xianshi_video">
                                 <div class="video">
-                                    <div class="guanbi_zhanshi" @click="guanbi_zhanshi(video.id)"><img src="http://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
+                                    <div class="guanbi_zhanshi" @click="guanbi_zhanshi(video.id)"><img src="https://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
                                     <video :src="video.s_url" :id="video.id" autoplay controls></video>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
     }
 
     .shiji .shipinzhongxin {
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/shipinzhongxin.png") no-repeat 50% 50%;
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/shipinzhongxin.png") no-repeat 50% 50%;
         height: 67px; }
     .shiji .table {
         margin: 35px auto 50px;
@@ -131,10 +131,10 @@
         border-left: 1px solid #cfe6ca; }
     .shiji .table .active {
         color: white;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
     .shiji .table a:hover {
         color: white;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
     .shiji .table #a7 {
         border-right: 1px solid #cfe6ca; }
     .shiji .shipin {
@@ -194,7 +194,7 @@
         position: absolute;
         top: 130px;
         left: 246px;
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/fenxiang.png") 50% 50% no-repeat #308638; }
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/fenxiang.png") 50% 50% no-repeat #308638; }
     .shiji .shipin > div .shipin_duli ul li img + i {
         padding: 0 10px 0 40px;
         color: white;
@@ -203,10 +203,10 @@
         line-height: 30px;
         font-size: 12px;
         font-style: normal;
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/zan.png") 15% 50% no-repeat #308638;
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/zan.png") 15% 50% no-repeat #308638;
         cursor: pointer; }
     .shiji .shipin > div .shipin_duli ul li img + i:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/zan_jihuo.png") 15% 50% no-repeat #308638; }
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/zan_jihuo.png") 15% 50% no-repeat #308638; }
     .shiji .shipin > div .shipin_duli ul li span {
         display: block;
         font-size: 12px; }

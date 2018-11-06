@@ -5,8 +5,8 @@
                 <div class="f_bg">
                     <div class="foot_shiji">
 					 <span>
-						 <img src="http://img.rrcj123.com/minecraft/img/footer/f_logo1.png">
-						 <img class="f_logo2" src="http://img.rrcj123.com/minecraft/img/footer/f_logo2.png">
+						 <img src="https://img.rrcj123.com/minecraft/img/footer/f_logo1.png">
+						 <img class="f_logo2" src="https://img.rrcj123.com/minecraft/img/footer/f_logo2.png">
 					 </span>
                         <span class="wenzi">
 						 <i>网易公司版权所有 ©1997-2018</i>
@@ -42,7 +42,7 @@
         margin: 0 auto;
     }
     .app-container .foot .f_bg{
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/h_f_bg.jpg");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/h_f_bg.jpg");
         margin: 0 -360px;
     }
     .app-container .foot .foot_shiji{

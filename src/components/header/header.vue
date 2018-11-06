@@ -25,7 +25,7 @@
             <div>
                 <div class="daohanglan_bg">
                     <div class="daohanglan_shiji">
-                        <div><a href="#" class="logo"><img src="http://img.rrcj123.com/minecraft/img/gongyong/logo.png"/></a></div>
+                        <div><a href="#" class="logo"><img src="https://img.rrcj123.com/minecraft/img/gongyong/logo.png"/></a></div>
                         <div class="wenzi">
                             <ul>
                                 <li class="l1" :class="{active:yemian=='/index'}"  @click="ye_mian('/index')"><router-link to="index"><i></i><p>官网首页</p></router-link></li>
@@ -108,7 +108,7 @@
     .app-container .dingbu {
         justify-content: space-between; }
     .app-container .dingbu .logo {
-        background: url("http://img.rrcj123.com/minecraft/img/header/h_logo.png") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/header/h_logo.png") no-repeat;
         width: 133px;
         height: 44px;
         margin-top: 5px; }
@@ -166,11 +166,11 @@
         width: 48px;
         height: 48px;
         margin: 0 auto;
-        background: url("http://img.rrcj123.com/minecraft/img/login/icon.png") no-repeat -239px 0;
+        background: url("https://img.rrcj123.com/minecraft/img/login/icon.png") no-repeat -239px 0;
         z-index: 5;
     }
     .guanbi:hover{
-        background: url("http://img.rrcj123.com/minecraft/img/login/icon.png") no-repeat -530px 0;
+        background: url("https://img.rrcj123.com/minecraft/img/login/icon.png") no-repeat -530px 0;
     }
     /*daohanglan*/
     .daohanglan {
@@ -183,7 +183,7 @@
         margin: 0 auto ;
     }
     .daohanglan .daohanglan_bg{
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/h_f_bg.jpg")  no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/h_f_bg.jpg")  no-repeat;
         margin: 0 -360px;
     }
     .daohanglan .daohanglan_shiji {
@@ -221,55 +221,55 @@
         font-size: 12px;
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l1 i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/guanwang.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/guanwang.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l1:hover i ,.daohanglan .daohanglan_shiji .wenzi ul .l1.active i{
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/guanwang_jihuo.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/guanwang_jihuo.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l1:hover p ,.daohanglan .daohanglan_shiji .wenzi ul .l1.active p{
         color: #AD1212;
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l2 i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/xinwen.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/xinwen.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l2:hover i,.daohanglan .daohanglan_shiji .wenzi ul .l2.active i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/xinwen_jihuo.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/xinwen_jihuo.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l2:hover p,.daohanglan .daohanglan_shiji .wenzi ul .l2.active p{
         color: #329AD6;
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l3 i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/xinshou.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/xinshou.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l3:hover i,.daohanglan .daohanglan_shiji .wenzi ul .l3.active i{
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/xinshou_jihuo.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/xinshou_jihuo.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l3:hover p,.daohanglan .daohanglan_shiji .wenzi ul .l3.active p{
         color: #C05019;
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l4 i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/wangjia.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/wangjia.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l4:hover i,.daohanglan .daohanglan_shiji .wenzi ul .l4.active i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/wangjia_jihuo.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/wangjia_jihuo.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l4:hover p,.daohanglan .daohanglan_shiji .wenzi ul .l4.active p{
         color: #1BAC4D;
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l5 i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/shipin.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/shipin.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l5:hover i,.daohanglan .daohanglan_shiji .wenzi ul .l5.active i{
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/shipin_jihuo.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/shipin_jihuo.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l5:hover p,.daohanglan .daohanglan_shiji .wenzi ul .l5.active p{
         color: #C8A734;
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l6 i {
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/shequ.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/shequ.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l6:hover i,.daohanglan .daohanglan_shiji .wenzi ul .l6.active i{
-        background: url("http://img.rrcj123.com/minecraft/img/gongyong/shequ_jihuo.png");
+        background: url("https://img.rrcj123.com/minecraft/img/gongyong/shequ_jihuo.png");
     }
     .daohanglan .daohanglan_shiji .wenzi ul .l6:hover p,.daohanglan .daohanglan_shiji .wenzi ul .l6.active p{
         color: #D43493;

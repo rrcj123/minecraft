@@ -52,11 +52,11 @@
                                 </div>
                                 <div class="erweima_box">
                                     <div class="erweima">
-                                        <span><img src="http://img.rrcj123.com/minecraft/img/index/fx_wx.jpg" alt="">
+                                        <span><img src="https://img.rrcj123.com/minecraft/img/index/fx_wx.jpg" alt="">
                                             <p>扫一扫关注微信</p>
                                             <p>Minecraftgf</p>
                                         </span>
-                                        <span><img src="http://img.rrcj123.com/minecraft/img/index/fx_wb.jpg" alt="">
+                                        <span><img src="https://img.rrcj123.com/minecraft/img/index/fx_wb.jpg" alt="">
                                             <p>扫一扫关注微博</p>
                                             <p>我的世界Minecraft</p>
                                         </span>
@@ -102,7 +102,7 @@
                                 <div class="img_bg">
                                     <div class="wenzi">
                                         <span class="title">{{tupian.title}}</span><i></i><span class="au">作者：{{tupian.author}}</span>
-                                        <div class="guanbi_zhanshi" @click="guanbi_zhanshi"><img src="http://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
+                                        <div class="guanbi_zhanshi" @click="guanbi_zhanshi"><img src="https://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
                                     </div>
                                     <div class="img">
                                         <img :src="tupian.url">
@@ -125,11 +125,11 @@
                             </ul>
                             <router-link to="/shipin" class="gengduo"><span>MORE</span><i></i></router-link>
                             <ul class="neirong">
-                                <li v-for="item in list_shipin" @click="zhanshi_video(item)"><img :src="item.t_url"/><div></div><img class="bofang" src="http://img.rrcj123.com/minecraft/img/xinshou/bofang.png"><span>{{item.title}}</span><span>作者：{{item.author}}</span></li>
+                                <li v-for="item in list_shipin" @click="zhanshi_video(item)"><img :src="item.t_url"/><div></div><img class="bofang" src="https://img.rrcj123.com/minecraft/img/xinshou/bofang.png"><span>{{item.title}}</span><span>作者：{{item.author}}</span></li>
                             </ul>
                             <div class="zhanshi_video" v-show="xianshi_video">
                                 <div class="video">
-                                    <div class="guanbi_zhanshi" @click="guanbi_zhanshi_video(video.id)"><img src="http://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
+                                    <div class="guanbi_zhanshi" @click="guanbi_zhanshi_video(video.id)"><img src="https://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
                                     <video :src="video.s_url" :id="video.id" autoplay controls></video>
                                 </div>
                             </div>
@@ -288,7 +288,7 @@
     }
     .datu .datu_bg{
         margin: 0 -360px;
-        background: url("http://img.rrcj123.com/minecraft/img/index/datubg.jpg");
+        background: url("https://img.rrcj123.com/minecraft/img/index/datubg.jpg");
         height: 633px;
         padding-top: 190px;
     }
@@ -296,12 +296,12 @@
         width: 773px;
         height: 105px;
         margin: 0 auto;
-        background: url("http://img.rrcj123.com/minecraft/img/index/datu_neibu.png");
+        background: url("https://img.rrcj123.com/minecraft/img/index/datu_neibu.png");
     }
 
     .datu .index_xia_bg{
         margin: -60px -360px 0;
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia_beijing.jpg");
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia_beijing.jpg");
         height: 1480px;
     }
     .neirong{
@@ -384,13 +384,13 @@
         color: black;
         font-weight: 700; }
     .xia_1 .center .gonggaolan_biaoti ul .active {
-        background: url("http://img.rrcj123.com/minecraft/img/index/gonggaolanbeijing.png");
+        background: url("https://img.rrcj123.com/minecraft/img/index/gonggaolanbeijing.png");
         color: white;}
     .xia_1 .center .gonggaolan_biaoti ul .gengduo {
         float: right;
         width: 40px;
         height: 40px;
-        background: url("http://img.rrcj123.com/minecraft/img/index/gonggaolan_gengduo.png") no-repeat 50% 50%;
+        background: url("https://img.rrcj123.com/minecraft/img/index/gonggaolan_gengduo.png") no-repeat 50% 50%;
         transition: all 0.5s; }
     .xia_1 .center .gonggaolan_biaoti ul .gengduo:hover {
         transform: rotate(180deg); }
@@ -443,7 +443,7 @@
         color: #28bd09;
         font-weight: 700; }
     .xia_1 .right {
-        background: url("http://img.rrcj123.com/minecraft/img/index/fenxiang_bg.png") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/index/fenxiang_bg.png") no-repeat;
         width: 118px;
         height: 318px;
         border: 5px solid #34ce57;
@@ -519,30 +519,30 @@
         float: left;
         width: 240px; }
     .xia_2 ul .l1 a {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_zhuce.png");
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_zhuce.png");
         height: 143px; }
     .xia_2 ul .l1 a:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_zhuce_jihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_zhuce_jihuo.png"); }
     .xia_2 ul .l2 a {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_xinshou.png");
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_xinshou.png");
         height: 139px; }
     .xia_2 ul .l2 a:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_xinshou_jihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_xinshou_jihuo.png"); }
     .xia_2 ul .l3 a {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_chuangzao.png");
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_chuangzao.png");
         height: 133px; }
     .xia_2 ul .l3 a:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_chuangzao_jihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_chuangzao_jihuo.png"); }
     .xia_2 ul .l4 a {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_fuwuqi.png");
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_fuwuqi.png");
         height: 128px; }
     .xia_2 ul .l4 a:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_fuwuqi_jihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_fuwuqi_jihuo.png"); }
     .xia_2 ul .l5 a {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_shangcheng.png");
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_shangcheng.png");
         height: 145px; }
     .xia_2 ul .l5 a:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/index/xia2_shangcheng_jihuo.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/index/xia2_shangcheng_jihuo.png"); }
 
     .gengduo {
         text-decoration: none;
@@ -555,7 +555,7 @@
         line-height: 34px; }
     .gengduo i {
         float: right;
-        background: url("http://img.rrcj123.com/minecraft/img/xinshou/+.png");
+        background: url("https://img.rrcj123.com/minecraft/img/xinshou/+.png");
         width: 34px;
         height: 34px;
         transition: all 0.5s; }
@@ -570,7 +570,7 @@
         float: left;
     }
     .xia_3 .left .wanjia {
-        background: url("http://img.rrcj123.com/minecraft/img/index/wanjiazuopin_bg.png") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/index/wanjiazuopin_bg.png") no-repeat;
         height: 92px;
         width: 165px;
         text-align: center;
@@ -733,7 +733,7 @@
 
     .xia_4{
         width: 1200px;
-        background: url("http://img.rrcj123.com/minecraft/img/index/shipinzhongxin_bg.png") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/index/shipinzhongxin_bg.png") no-repeat;
         position: relative;
     }
     .xia_4 .shipin{
@@ -777,7 +777,7 @@
         transition: all 0.5s;
     }
     .xia_4 .tab li .active{
-        background: url("http://img.rrcj123.com/minecraft/img/index/shipin_tab_bg.png") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/index/shipin_tab_bg.png") no-repeat;
         color: white;
     }
     .xia_4 .neirong{
@@ -836,7 +836,7 @@
         position: absolute;
         top: 130px;
         left: 246px;
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/fenxiang.png") 50% 50% no-repeat #308638; }
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/fenxiang.png") 50% 50% no-repeat #308638; }
     .xia_4 .neirong li img + i {
         padding: 0 10px 0 40px;
         color: white;
@@ -845,10 +845,10 @@
         line-height: 30px;
         font-size: 12px;
         font-style: normal;
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/zan.png") 15% 50% no-repeat #308638;
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/zan.png") 15% 50% no-repeat #308638;
         cursor: pointer; }
     .xia_4 .neirong li img + i:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/zan_jihuo.png") 15% 50% no-repeat #308638; }
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/zan_jihuo.png") 15% 50% no-repeat #308638; }
     .xia_4 .neirong li span {
         display: block;
         font-size: 12px; }

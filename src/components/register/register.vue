@@ -1,7 +1,7 @@
 <template>
     <div class="app_login">
         <div class="login">
-            <div class="kuaishu"><img src="http://img.rrcj123.com/minecraft/img/login/zhuce.png" alt=""></div>
+            <div class="kuaishu"><img src="https://img.rrcj123.com/minecraft/img/login/zhuce.png" alt=""></div>
                 <div class="neirong">
                     <input class="box" type="text" placeholder="用户账号" v-model="user" @blur="shiqu('user')" @focus="huode('user')" :class="{err:user_yanzheng}">
                     <div class="kongbai"></div>
@@ -11,7 +11,7 @@
                     <div class="kongbai"></div>
                     <span class="tishi" v-html="pwd_tishi" v-show="pwd.length<6||pwd.length>18" v-if=pwd_yanzheng></span>
                     <div class="kongbai"></div>
-                    <a href="javascript:;" class="zhuce"><img src="http://img.rrcj123.com/minecraft/img/login/zhuceanniu.jpg" @click="zhuce"></a>
+                    <a href="javascript:;" class="zhuce"><img src="https://img.rrcj123.com/minecraft/img/login/zhuceanniu.jpg" @click="zhuce"></a>
                     <div class="kongbai"></div>
                     <span>
                         <input type="checkbox" id="questionNo" @click="tongyi" checked="checked"><label for="questionNo"></label>
@@ -98,7 +98,7 @@
     .app_login .login{
         width: 479px;
         height: 432px;
-        background: url("http://img.rrcj123.com/minecraft/img/login/login.png");
+        background: url("https://img.rrcj123.com/minecraft/img/login/login.png");
     }
     .app_login .login .kuaishu{
         width: 154px;

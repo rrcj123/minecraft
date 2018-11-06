@@ -38,7 +38,7 @@
                             <div>
                                 <ul>
                                     <li v-for="(s_item,i) in list_shi">
-                                        <a href="javascript:;"><img :src="s_item.t_url"/><div></div><span>{{s_item.title}}</span><span>作者：{{s_item.author}}</span><a href="javascript:;" @click="zan(s_item.sid,i)" v-html="s_item.zan"></a><img class="bofang" src="http://img.rrcj123.com/minecraft/img/xinshou/bofang.png"></a></li>
+                                        <a href="javascript:;"><img :src="s_item.t_url"/><div></div><span>{{s_item.title}}</span><span>作者：{{s_item.author}}</span><a href="javascript:;" @click="zan(s_item.sid,i)" v-html="s_item.zan"></a><img class="bofang" src="https://img.rrcj123.com/minecraft/img/xinshou/bofang.png"></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
         height: 45px;
         width: 1000px;
         padding-left: 200px;
-        background: url("http://img.rrcj123.com/minecraft/img/xinshou/xia1_tuwen.png") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/xinshou/xia1_tuwen.png") no-repeat;
         margin-bottom: 20px;
         margin-top: -48px; }
     .tab .biaoqian {
@@ -155,7 +155,7 @@
         text-align: center; }
     .tab .active {
         color: white;
-        background: url(http://img.rrcj123.com/minecraft/img/xinshou/tuwen_daohanglan_bg.png); }
+        background: url(https://img.rrcj123.com/minecraft/img/xinshou/tuwen_daohanglan_bg.png); }
     .tab .gengduo {
         text-decoration: none;
         float: right;
@@ -167,7 +167,7 @@
         line-height: 34px; }
     .tab .gengduo i {
         float: right;
-        background: url("http://img.rrcj123.com/minecraft/img/xinshou/+.png");
+        background: url("https://img.rrcj123.com/minecraft/img/xinshou/+.png");
         width: 34px;
         height: 34px;
         transition: all 0.5s; }
@@ -213,7 +213,7 @@
         width: 100%;
         height: 60px;
         border-bottom: 2px solid #EDF3EC;
-        background: url("http://img.rrcj123.com/minecraft/img/xinshou/lunbo_right.png") no-repeat 95% 50%; }
+        background: url("https://img.rrcj123.com/minecraft/img/xinshou/lunbo_right.png") no-repeat 95% 50%; }
     .tuwengongluo_txt .lunbo_right ul {
         list-style: none;
         padding: 0 22px;
@@ -246,14 +246,14 @@
         height: 244px; }
 
     .shipin_tab {
-        background: url("http://img.rrcj123.com/minecraft/img/xinshou/xia2_shipin.png") no-repeat;
+        background: url("https://img.rrcj123.com/minecraft/img/xinshou/xia2_shipin.png") no-repeat;
         margin-bottom: 20px;
         margin-top: 45px; }
     .shipin_tab .biaoqian {
         width: 140px; }
     .shipin_tab .active {
         color: white;
-        background: url(http://img.rrcj123.com/minecraft/img/xinshou/tuwen_daohanglan_bg.png);
+        background: url(https://img.rrcj123.com/minecraft/img/xinshou/tuwen_daohanglan_bg.png);
         background-size: 100% 100%; }
     .shipin_tab .gengduo {
         text-decoration: none;
@@ -266,7 +266,7 @@
         line-height: 34px; }
     .shipin_tab .gengduo i {
         float: right;
-        background: url("http://img.rrcj123.com/minecraft/img/xinshou/+.png");
+        background: url("https://img.rrcj123.com/minecraft/img/xinshou/+.png");
         width: 34px;
         height: 34px;
         transition: all 0.5s; }
@@ -327,12 +327,12 @@
         color: white;
         font-size: 12px;
         padding-right: 25px;
-        background: url("http://img.rrcj123.com/minecraft/img/wanjia/zan.png") no-repeat 100% 50%;
+        background: url("https://img.rrcj123.com/minecraft/img/wanjia/zan.png") no-repeat 100% 50%;
         top: 90px;
         right: 10px;
         margin: 0; }
     .shipingonglue ul li a p:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/wanjia/zan_jihuo.png") no-repeat 100% 50%; }
+        background: url("https://img.rrcj123.com/minecraft/img/wanjia/zan_jihuo.png") no-repeat 100% 50%; }
     .shipingonglue ul li a span {
         display: block;
         font-size: 12px;

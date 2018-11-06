@@ -30,7 +30,7 @@ Vue.filter("classlist",function(classify) {
     return str;
 })
 //6.设置请求的根路径
-Vue.http.options.root="http://123.206.86.33:2010/",
+Vue.http.options.root="https://worldht.rrcj123.com/",
 //7:全局设置post 时候表音的数据组织格式为 application/x-www-form-urlencoded
 Vue.http.options.emulateJSON = true;
 

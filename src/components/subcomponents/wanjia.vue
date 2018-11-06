@@ -25,7 +25,7 @@
                         <div class="img_bg">
                             <div class="wenzi">
                                 <span class="title">{{tupian.title}}</span><i></i><span class="au">作者：{{tupian.author}}</span>
-                                <div class="guanbi_zhanshi" @click="guanbi_zhanshi"><img src="http://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
+                                <div class="guanbi_zhanshi" @click="guanbi_zhanshi"><img src="https://img.rrcj123.com/minecraft/img/gongyong/guanbi_tp.png"></div>
                             </div>
                             <div class="img">
                                 <img :src="tupian.url">
@@ -113,7 +113,7 @@
     }
 
     .shiji .wanjiazuopin {
-        background: url("http://img.rrcj123.com/minecraft/img/wanjia/wanjiazuopin.png") no-repeat 50% 50%;
+        background: url("https://img.rrcj123.com/minecraft/img/wanjia/wanjiazuopin.png") no-repeat 50% 50%;
         height: 68px; }
     .shiji .table {
         margin: 35px 0 50px;
@@ -133,7 +133,7 @@
         transition: all 0.7s; }
     .shiji .table a:hover {
         color: white;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
     .shiji .table #a1 {
         border-left: 1px solid #cfe6ca; }
     .shiji .table #a2 {
@@ -142,7 +142,7 @@
         border-right: 1px solid #cfe6ca; }
     .shiji .table .active {
         color: white;
-        background: url("http://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
+        background: url("https://img.rrcj123.com/minecraft/img/xinwen/xia2_gaohanglanbeijing.png"); }
     .shiji .zuopin {
         white-space: nowrap;
         width: 1200px;
@@ -174,10 +174,10 @@
         line-height: 30px;
         font-size: 12px;
         font-style: normal;
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/zan.png") 15% 50% no-repeat #308638;
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/zan.png") 15% 50% no-repeat #308638;
         cursor: pointer; }
     .shiji .zuopin ul li img + i:hover {
-        background: url("http://img.rrcj123.com/minecraft/img/shipin/zan_jihuo.png") 15% 50% no-repeat transparent; }
+        background: url("https://img.rrcj123.com/minecraft/img/shipin/zan_jihuo.png") 15% 50% no-repeat transparent; }
     .shiji .zuopin ul li div {
         background: rgba(0, 0, 0, 0.6);
         padding: 5px 0;
@@ -201,7 +201,7 @@
         height: 285px; }
     #tx img+i,#bqb img+i{
         color: transparent;
-        background: url("http://img.rrcj123.com/minecraft/img/wanjia/xiazai.png") 50% 50% no-repeat #308638;
+        background: url("https://img.rrcj123.com/minecraft/img/wanjia/xiazai.png") 50% 50% no-repeat #308638;
         padding: 0;
         width: 30px;
         left: 255px; }
