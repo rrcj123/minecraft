@@ -7,6 +7,7 @@
                 <ul class="ok" v-if="login_zhuangtai">
                     <li class="geren"><a href="javascript:;">欢迎：<span>{{user}}</span></a></li>
                     <li class="tuichu"><a href="javascript:;" @click="tuichu">退出</a></li>
+                    <li class="tuichu"><a href="/shangchuan">上传</a></li>
                 </ul>
                 <ul class="login" v-else>
                     <li><a href="javascript:;" @click="zhuce">注册</a></li>
@@ -159,7 +160,7 @@
         top: 250px;
         left: 700px;
         z-index: 5;
-        margin:  300px auto;
+        margin:  15% auto;
     }
     .guanbi{
         cursor:pointer;

@@ -190,7 +190,6 @@
                 var box = document.querySelector(".erweima");
                 if(str=='wb')box.style.marginLeft='-118px';
                 else  box.style.marginLeft='0px';
-
             },
             shoudong_lunbotu(num){
                 this.lunbo_ac=num;
@@ -200,7 +199,7 @@
             zd_lunbotu(){
                 var lun_bo=this;
                 this.t_index=setInterval(function () {
-                    lun_bo.lunbo_ac=(lun_bo.lunbo_ac==lun_bo.lunbo_list.length-1?0:lun_bo.lunbo_ac+1)
+                    lun_bo.lunbo_ac=(lun_bo.lunbo_ac==lun_bo.lunbo_list.length-1?0:lun_bo.lunbo_ac+1);
                     var index_lunbo = document.getElementById("index_lunbo");
                     index_lunbo .style.marginLeft=-540*lun_bo.lunbo_ac+'px';
                 },3000)
@@ -271,6 +270,7 @@
             this.getshipin();
             this.getlunbotu();
             this.zd_lunbotu();
+            console.log(this.$store.state.id)
         }
     }
 </script>

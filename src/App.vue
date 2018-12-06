@@ -34,6 +34,7 @@
                 if(this.yemian=='/shequ')this.zhuangtai=true;
                 if(this.yemian=='/shipin')this.zhuangtai=true;
                 if(this.yemian=='/login')this.zhuangtai=true;
+                if(this.yemian=='/shangchuan')this.zhuangtai=true;
 			}
         },
         created(){

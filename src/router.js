@@ -7,19 +7,22 @@ import WanJia from "./components/wanjia/WanJia"
 import ShiPin from "./components/shipin/ShiPin"
 import SheQu from "./components/shequ/SheQu"
 import Login from "./components/login/login"
+import Shangchuan from "./components/shangchuan/shangchuan"
 
 Vue.use(Router);
 export default new Router({
+    mode:'history',
     routes: [
-      {path:'/',component:Index},
-      {path:"/index",component:Index},
-      {path:'/news',component:NewsList},
-      {path:"/xinshou",component:XinShou},
-      {path:"/wanjia",component:WanJia},
-      {path:"/shipin",component:ShiPin},
-      {path:"/shequ",component:SheQu},
-      {path:"/login",component:Login},
-  ]
+      {path:'/',component:Index,name:Index},
+      {path:"/index",component:Index,name:Index},
+      {path:'/news',component:NewsList,name:NewsList},
+      {path:"/xinshou",component:XinShou,name:XinShou},
+      {path:"/wanjia",component:WanJia,name:WanJia},
+      {path:"/shipin",component:ShiPin,name:ShiPin},
+      {path:"/shequ",component:SheQu,name:SheQu},
+      {path:"/login",component:Login,name:Login},
+      {path:"/shangchuan",component:Shangchuan,name:Shangchuan},
+  ],
 })
 
 

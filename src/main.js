@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import store from './store'
 
 
 Vue.config.productionTip = false;
@@ -28,13 +29,25 @@ Vue.filter("classlist",function(classify) {
         case "hd":str = "活动";break;
     }
     return str;
-})
+});
 //6.设置请求的根路径
 Vue.http.options.root="https://worldht.rrcj123.com/",
 //7:全局设置post 时候表音的数据组织格式为 application/x-www-form-urlencoded
 Vue.http.options.emulateJSON = true;
+//路由守卫
+router.beforeEach((to, from, next) => {
+    if (to.path==='/shangchuan') {
+        if(!sessionStorage.getItem("user")){
+            window.alert("您尚未登陆，返回首页");
+            router.push({path: '/index'})
+        }
+    }
+    next()
+
+});
 
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount('#app');

@@ -77,7 +77,7 @@
             },
             zhuce(){
                 this.shiqu('user');
-                this.shiqu("pwd")
+                this.shiqu("pwd");
                 console.log(this.user_yanzheng,this.pwd_yanzheng,this.tiaoli_yanzheng)
                 if(!this.user_yanzheng&&!this.pwd_yanzheng&&!this.tiaoli_yanzheng&&this.user){
 
