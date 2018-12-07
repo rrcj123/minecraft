@@ -19,6 +19,9 @@ Vue.filter("dateFormat",function(datestr,pattern="YYYY-MM-DD"){
    var str=m+"-"+d;
    return str;
 });
+Vue.filter("dateTime",function(datestr,pattern="YYYY-MM-DD"){
+    return new Date(datestr).toLocaleString()
+});
 //公告类别过滤器
 Vue.filter("classlist",function(classify) {
     var str = "";
@@ -42,8 +45,13 @@ router.beforeEach((to, from, next) => {
             router.push({path: '/index'})
         }
     }
+    if (to.path==='/list') {
+        if(sessionStorage.getItem("user")!='rrcj123'){
+            window.alert("请使用管理员账号尝试");
+            router.push({path: '/index'})
+        }
+    }
     next()
-
 });
 
 new Vue({

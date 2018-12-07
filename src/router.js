@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from "./components/index/Index"
+import List from "./components/index/list"
 import NewsList from "./components/news/NewsList"
 import XinShou from "./components/xinshou/XinShou"
 import WanJia from "./components/wanjia/WanJia"
@@ -15,6 +16,7 @@ export default new Router({
     routes: [
       {path:'/',component:Index,name:Index},
       {path:"/index",component:Index,name:Index},
+      {path:"/list",component:List,name:List},
       {path:'/news',component:NewsList,name:NewsList},
       {path:"/xinshou",component:XinShou,name:XinShou},
       {path:"/wanjia",component:WanJia,name:WanJia},

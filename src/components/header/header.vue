@@ -79,6 +79,7 @@
             tuichu(){
                 this.login_zhuangtai = false;
                 sessionStorage.setItem("user","");
+                if(this.$route.path=='/shangchuan')this.$router.push({path: '/index'})
             },
         },
         created(){

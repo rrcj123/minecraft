@@ -270,7 +270,6 @@
             this.getshipin();
             this.getlunbotu();
             this.zd_lunbotu();
-            console.log(this.$store.state.id)
         }
     }
 </script>

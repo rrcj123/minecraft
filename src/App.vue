@@ -24,7 +24,6 @@
             }
         },
         methods:{
-
 			zhuang_tai(){
                 if(this.yemian=='/')this.zhuangtai=true;
 			    if(this.yemian=='/index')this.zhuangtai=true;
@@ -35,6 +34,7 @@
                 if(this.yemian=='/shipin')this.zhuangtai=true;
                 if(this.yemian=='/login')this.zhuangtai=true;
                 if(this.yemian=='/shangchuan')this.zhuangtai=true;
+                if(this.yemian=='/list')this.zhuangtai=true;
 			}
         },
         created(){
