@@ -17,7 +17,7 @@
                 <span style="width:100px;font-size: 15px">{{item.city?item.city:"未知"}}</span>
                 <span style="width:200px;font-size: 15px">{{item.title}}</span>
                 <span style="width:300px;font-size: 15px">{{item.time | dateTime}}</span>
-                <span style="width:100px;font-size: 15px"><a v-if="i>6" href="javascript:" @click="s(item.uid)">删除</a><b v-else>不能删除</b></span>
+                <span style="width:100px;font-size: 15px"><a v-if="i>6" href="javascript:" @click="s(item.uid,item.url)">删除</a><b v-else>不能删除</b></span>
             </li>
         </ul>
     </div>
@@ -37,8 +37,8 @@ i
                     this.list = res.body.msg;
                 })
             },
-            s(id){
-                this.$http.post('https://worldht.rrcj123.com/index/lunbolists',{uid:id}).then(res=>{
+            s(id,url){
+                this.$http.post('https://worldht.rrcj123.com/index/lunbolists',{uid:id,url:url}).then(res=>{
                     window.alert("删除成功")
                 });
                 setTimeout(this.xinxilist,100)
